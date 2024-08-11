@@ -1,0 +1,17 @@
+(executables
+ (public_names tripdemo1)
+ (names main1)
+ (modules main1)
+ )
+
+(executables
+ (public_names tripdemo2)
+ (names main2)
+ (modules main2)
+ (libraries trip2))
+
+(executables
+ (public_names tripdemo3)
+ (names main3)
+ (modules main3)
+ (libraries trip3))
